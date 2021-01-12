@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="35dp"
+        android:text="@string/menu"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp">
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:id="@+id/btn_taxi"
+            android:background="@drawable/bin_gray"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:clickable="true"
+            android:weightSum="1"
+            android:layout_marginLeft="40dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/imgbtn_taxi">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/taxi">
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/btn_ktx"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/bin_gray"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:clickable="true"
+            android:weightSum="1"
+            android:layout_marginLeft="40dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/imgbtn_ktx">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/ktx">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:id="@+id/btn_bus"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/bin_gray"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:clickable="true"
+            android:weightSum="1"
+            android:layout_marginLeft="40dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/imgbtn_bus">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/bus">
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/btn_map"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/bin_gray"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:clickable="true"
+            android:weightSum="1"
+            android:layout_marginLeft="40dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/imgbtn_map">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/maps">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:id="@+id/btn_weather"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/bin_gray"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:clickable="true"
+            android:weightSum="1"
+            android:layout_marginLeft="40dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/imgbtn_weather">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/weather">
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/btn_setting"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/bin_gray"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:clickable="true"
+            android:weightSum="1"
+            android:layout_marginLeft="40dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/imgbtn_setting">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/setting">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<resources>
+	<string name="app_name">Together</string>
+	<string name="btn_advance">Advance (Auth)</string>
+	<string name="btn_basic">Basic (No Auth)</string>
+	<string name="btn_push">Push</string>
+	<string name="btn_remove_value">removeValue</string>
+	<string name="btn_set_value">setValue</string>
+	<string name="btn_update_children">updateChildren</string>
+	<string name="fail_read">Failed to read value: %s</string>
+	<string name="hint_password">Password</string>
+	<string name="hint_email">Email</string>
+	<string name="hint_title">Title</string>
+	<string name="hint_body">Write your post…</string>
+	<string name="hint_username">User name</string>
+	<string name="menu_chat">Chat</string>
+	<string name="menu_logout">Log out</string>
+	<string name="post">Post</string>
+	<string name="send">SEND</string>
+	<string name="required">Required</string>
+	<string name="sign_in">Sign In</string>
+	<string name="sign_up">Sign Up</string>
+	<string name="username">Current username: %s \n\n</string>
+	<string name="departure_date">Departure date</string>
+	<string name="time">Time</string>
+	<string name="create_room">Create room</string>
+	<string name="log_in">Log in</string>
+	<string name="find_email">Find Email</string>
+	<string name="find_password">Find Password</string>
+	<string name="place_to_search">Place to search</string>
+	<string name="search">Search</string>
+	<string name="my_location">My Location</string>
+	<string name="menu">MENU</string>
+	<string name="taxi">Taxi</string>
+	<string name="ktx">KTX</string>
+	<string name="bus">Bus</string>
+	<string name="maps">Maps</string>
+	<string name="weather">Weather</string>
+	<string name="setting">Setting</string>
+	<string name="phone_number">Phone number</string>
+	<string name="retype_password">Retype password</string>
+	<string name="notices">Notices</string>
+	<string name="account">Account</string>
+	<string name="notifications">Notifications</string>
+	<string name="start_place">Start place</string>
+	<string name="destination">Destination</string>
+	<string name="hour">Hour</string>
+	<string name="minute">Minute</string>
+	<string name="boarding_time">Boarding time</string>
+	<string name="save">Save</string>
+	<string name="notification_tones">Notification Tones</string>
+	<string name="top_bar_notification">Top notification</string>
+	<string name="push_notification">Push notification</string>
+	<string name="vibration_notification">Vibration</string>
+	<string name="change_password">Change Password</string>
+    <string name="citybus">city bus</string>
+	<string name="expressbus">express bus</string>
+	<string name="please_enter_your_email">Please enter your Email</string>
+	<string name="find">Find</string>
+
+
+	<string-array name="headings1">
+		<item>KTX</item>
+		<item>My Rooms</item>
+	</string-array>
+
+	<string-array name="headings2">
+		<item>Taxi</item>
+		<item>My Rooms</item>
+	</string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="chat_room_list" type="id" />
+    <item name="ch_npw" type="id" />
+    <item name="btn_change" type="id" />
+</resources>

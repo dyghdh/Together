@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/cardview_margin_4"
+    android:layout_marginBottom="@dimen/cardview_margin_4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/cardview_margin_8">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/chat_room_tv1"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="년월일"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/chat_room_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="출발지도착지"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
